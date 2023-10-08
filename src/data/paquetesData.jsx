@@ -1,7 +1,8 @@
 
 
-const paquetes = [
+export const paquetesData = [
     {
+        id: 1,
         titulo: 'Viaje suborbital potenciado cont Realidad Aumentada',
         items: [
             'Opcion abierta para todo publico',
@@ -15,11 +16,12 @@ const paquetes = [
             'Ser mayor de edad'
         ],
         imagenes: [
-
+            'https://ichef.bbci.co.uk/news/640/amz/worldservice/live/assets/images/2015/11/03/151103162912_caminata_624x351_nasa_nocredit.jpg'
         ]
     },
 
     {
+        id: 3,
         titulo: 'Viaje a la orbita Lunar',
         items: [
             'Viaje en nave Starship',
@@ -50,6 +52,7 @@ const paquetes = [
     },
 
     {
+        id: 2,
         titulo: 'Stellar experience - Momentos estelares únicos',
         items: [
             'Opcion abierta para todo publico',

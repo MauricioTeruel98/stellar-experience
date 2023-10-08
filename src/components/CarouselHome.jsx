@@ -1,9 +1,9 @@
 
 import React, { useState, useEffect } from 'react';
 import logo from '../assets/img/Logo_stellar-removebg-preview (1).png';
-import logo1 from '../assets/img/logo-stellar-ex.png';
-import logo2 from '../assets/img/galaxy.jpg';
-import logo3 from '../assets/img/Logo_stellar.png';
+import logo1 from '../assets/img/_304ecd4b-f6ba-41cf-81e4-8e39f4aad49e (1).jfif';
+import logo2 from '../assets/img/_953f2450-f53c-49f8-8209-b5cb1c396a58.jfif';
+import logo3 from '../assets/img/_fbf7a623-e76b-43d7-9933-b8060e87fa77.jfif';
 import '../App.css'
 
 const images = [logo1, logo2, logo3];
