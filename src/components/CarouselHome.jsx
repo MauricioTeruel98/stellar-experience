@@ -26,8 +26,8 @@ export default function CarouselHome() {
 
     return (
         <div className="rounded-xl relative">
-            <div className='overlay-carousel absolute top-0 left-0 w-full h-full rounded-t-xl rounded-b-xl'></div>
-            <div className='absolute right-0 h-full'>
+            <div className='hidden lg:block overlay-carousel absolute top-0 left-0 w-full h-full rounded-t-xl rounded-b-xl'></div>
+            <div className='hidden lg:block absolute right-0 h-full'>
                 <img src={logo} alt="" className='h-full'/>
             </div>
             {images.map((image, index) => (

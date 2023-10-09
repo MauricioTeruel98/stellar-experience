@@ -1,83 +1,85 @@
-
+import avion from '../assets/img/avion.jpg'
+import avion1 from '../assets/img/BkCEr_RiG_1256x620__1.webp'
+import img1 from '../assets/img/iss040nasa.jpg'
+import img2 from '../assets/img/iss036e005964nasa.jpg'
+import img3 from '../assets/img/_fbf7a623-e76b-43d7-9933-b8060e87fa77.jfif'
+import img4 from '../assets/img/nasa-71W3CWeZF7A-unsplash.jpg'
 
 export const paquetesData = [
     {
         id: 1,
-        titulo: 'Viaje suborbital potenciado cont Realidad Aumentada',
+        titulo: 'Suborbital travel powered by Augmented Reality',
         items: [
-            'Opcion abierta para todo publico',
-            'Evento de realidad aumentada',
-            'Gravedad 0 + Fuerza G'
+            'Open option for all public',
+            'Augmented reality event',
+            'Gravity 0 + G-force'
         ],
-        info: '¿Te gustaría tener una experiencia similar a conocer la luna, pero desde la tierra? En Stellar Experience te damos la oportunidad de hacerlo con un sistema que integra realidad aumentada y viajes espaciales suborbitales para que tu experiencia sea totalmente inmersiva y realista.',
-        infoDetallada: 'Esta propuesta combina gafas de realidad aumentada, en las que podrás conocer la luna y su entorno desde una nave que viaja a 80km de altura sobre la superficie terrestre. De esta manera simulamos la experiencia de un viaje espacial real, sin los requisitos y preparación que esto implicaría.',
+        info: 'Would you like to have an experience similar to seeing the moon, but from the earth? At Stellar Experience, we give you the opportunity to do it with a system that integrates augmented reality and suborbital space travel to make your experience totally immersive and realistic.',
+        infoDetallada: "This proposal combines augmented reality glasses, in which you can see the moon and its environment from a spacecraft that travels 80km above the earth's surface. In this way, we simulate the experience of a real space trip, without the requirements and preparation that this would imply.",
         requisitos: [
-            'Presentar un apto físico',
-            'Ser mayor de edad'
+            'Submit a physical aptitude test',
+            'Be of legal age'
         ],
         imagenes: [
-            'https://ichef.bbci.co.uk/news/640/amz/worldservice/live/assets/images/2015/11/03/151103162912_caminata_624x351_nasa_nocredit.jpg'
+            avion,
+            avion1,
+            img3
+        ],
+        itinerario: [
+            'Visit to the ship simulation center: A working environment is simulated on the ship.',
+            'Travel on the plane Gravity 0 enhanced with virtual reality'
         ]
     },
 
     {
         id: 3,
-        titulo: 'Viaje a la orbita Lunar',
+        titulo: 'Stellar experience - Unique stellar moments',
         items: [
-            'Viaje en nave Starship',
-            'Actividades dentro de la Nave',
-            '2 Semanas de viaje',
-            'Acompañamiento asistido por IA'
+            'Travel on Starship spacecraft',
+            'Activities within the Ship',
+            '2 Weeks of travel',
+            'AI-assisted accompaniment'
         ],
-        info: '¿Estás preparado para la aventura de tu vida? Stellar experience te garantiza una experiencia inolvidable, donde conocerás la luna desde cerca. Además, te sentirás como un verdadero astronauta y lo vivirás desde un punto de vista recreativo y entretenido.',
-        infoDetallada: 'Esta propuesta incluye un viaje hacia el espacio exterior utilizando la innovadora nave de spaceX, Starship, la cual demora tan sólo 5 días en llegar desde la Tierra a la Luna. El viaje tendrá una duración total de dos semanas, permitiendo disfrutar de cuatro días orbitando la luna.',
+        info: 'Are you ready for the adventure of your life? Stellar experience guarantees you an unforgettable experience, where you will get to know the moon up close. Plus, you will feel like a real astronaut and experience it from a recreational and entertaining perspective.',
+        infoDetallada: 'This proposal includes a trip to outer space using the innovative SpaceX® Starship, which takes only 5 days to reach the Moon from Earth. The trip will last a total of two weeks, allowing you to enjoy four days orbiting the Moon. You will even be able to see an eclipse of the Earth, yes, of the Earth. During a lunar eclipse we can place ourselves between the Moon and the Earth (depending on the date).',
         requisitos: [
-            'Presentar apto psicofísico',
-            'Superar evaluaciones psicofísicas afines (se brindará una preparación física adecuada, en caso de ser necesario)',
-            'Ser mayor de edad'
+            'Submit a psychophysical aptitude test',
+            'Pass related psychophysical evaluations (appropriate physical preparation will be provided if necessary)',
+            'Be of legal age'
         ],
         actividades: [
-            'Observación astronómica guiada',
-            'Actividades recreativas en gravedad 0',
-            'Gimnasio gravedad 0 (Entrenamiento como astrunauta)',
-            'Prácticas movimiento gravedad 0',
-            'Estudios de datos cientificos en Cupula',
-            'Cultivos',
-            'Dia de comida deshidratada',
-            'Recorrido por la nave (Incluyendo cabina)'
+            'Guided astronomical observation',
+            'Recreational activities in zero gravity',
+            'Zero gravity gym (Astronaut training)',
+            'Zero gravity movement practices',
+            'Scientific data studies in the Dome',
+            'Cultivation',
+            'Dehydrated food day',
+            'Tour of the ship (Including cabin)'
         ],
         imagenes: [
-            
-        ]
-    },
-
-    {
-        id: 2,
-        titulo: 'Stellar experience - Momentos estelares únicos',
-        items: [
-            'Opcion abierta para todo publico',
-            'Evento de realidad aumentada',
-            'Gravedad 0 + Fuerza G'
+            img1,
+            img2,
+            img4
         ],
-        info: '¿Alguna vez pensaste en vivir eventos estelares únicos en primera persona? Stellar experience te brinda la posibilidad exclusiva de deleitar estos acontecimientos cósmicos desde el mismísimo espacio, con un confort idílico único.',
-        infoDetallada: 'Esta propuesta combina gafas de realidad aumentada, en las que podrás conocer la luna y su entorno desde una nave que viaja a 80km de altura sobre la superficie terrestre. De esta manera simulamos la experiencia de un viaje espacial real, sin los requisitos y preparación que esto implicaría.',
-        requisitos: [
-            'Presentar apto psicofísico',
-            'Superar evaluaciones psicofísicas afines (se brindará una preparación física adecuada, en caso de ser necesario)',
-            'Ser mayor de edad'
-        ],
-        actividades: [
-            'Observación astronómica guiada',
-            'Actividades recreativas en gravedad 0',
-            'Gimnasio gravedad 0 (Entrenamiento como astrunauta)',
-            'Prácticas movimiento gravedad 0',
-            'Estudios de datos cientificos en Cupula',
-            'Cultivos',
-            'Dia de comida deshidratada',
-            'Recorrido por la nave (Incluyendo cabina)'
-        ],
-        imagenes: [
-            
+        itinerario: [
+            'Preparation, takeoff, and settle in comfortably',
+            'Tour of the ship control center, Star observation with augmented reality',
+            'Microgravity cultivation',
+            'Guided astronomical observation',
+            'Recreational activity in zero gravity',
+            'Arrival in lunar orbit, Observation of lunar points of interest',
+            'Lunar Photography Workshop',
+            'Spacewalk outside the ship',
+            'Starry observation in augmented reality',
+            'Return, Recreational activity in zero gravity',
+            'Dehydrated food day',
+            'Space Art Workshop',
+            'Gravitational Meditation Workshop',
+            'Space Cooking Classes',
+            'Space Filmmaking Workshop',
+            'Landing on Earth, Medical control'
         ]
     },
 ]
+

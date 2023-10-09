@@ -3,8 +3,8 @@ import React from 'react'
 const QuienesSomos = () => {
     return (
         <div className='text-center my-20 md:my-40'>
-            <h1 className='text-3xl font-bold'>Quienes Somos?</h1>
-            <p className='text-xl'>Somos Stellar Experience, un proveedor de servicios espaciales, que se dedica a brindarte tu primera experiencia espacial, a través de aeronaves ya construidas como la starship, ofreciendo packs con diversos planes y actividades que te harán viajar por la lunas y más allá
+            <h1 className='text-3xl font-bold'>About Us</h1>
+            <p className='text-xl'>We are Stellar Experience, a provider of space services, dedicated to give you your first space experience, through aircraft already built as the starship®, offering packs with various plans and activities that will make you travel to the moons and beyond.
 </p>
         </div>
     )

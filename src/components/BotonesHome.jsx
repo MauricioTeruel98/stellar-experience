@@ -12,7 +12,7 @@ const BotonesHome = () => {
                     <div className="card w-full bg-base-100 shadow-xl image-full">
                         <figure><img className='max-h-96 w-full object-cover' src={info} alt="Shoes" /></figure>
                         <div className="card-body">
-                            <h2 className="card-title md:text-6xl">Paquetes</h2>
+                            <h2 className="card-title text-4xl md:text-6xl">Packs</h2>
                             <div className="card-actions justify-end">
                                 
                             </div>
@@ -24,7 +24,7 @@ const BotonesHome = () => {
                     <div className="card w-full bg-base-100 shadow-xl image-full">
                         <figure><img src={paquete} alt="Shoes" className='max-h-96 w-full object-cover' /></figure>
                         <div className="card-body">
-                            <h2 className="card-title md:text-6xl">Más Info</h2>
+                            <h2 className="card-title text-4xl md:text-6xl">More Info</h2>
                             <div className="card-actions justify-end">
                                 
                             </div>

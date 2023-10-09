@@ -4,6 +4,7 @@ import Inicio from './views/Inicio';
 import Paquetes from './views/Paquetes';
 import Paquete from './views/Paquete';
 import MasInfo from './views/MasInfo';
+import Contacto from './views/Contacto';
 
 const router = createBrowserRouter([
     {
@@ -43,6 +44,16 @@ const router = createBrowserRouter([
             {
                 index: true,
                 element: <MasInfo />
+            }
+        ]
+    },
+    {
+        path: '/contratar',
+        element: <Layout />,
+        children: [
+            {
+                index: true,
+                element: <Contacto />
             }
         ]
     },

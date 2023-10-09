@@ -13,6 +13,7 @@ body {
     padding-top: 1px;
     margin-bottom: -1px;
     margin-top: -1px;
+    overflow-x: hidden;
 }
 
 .carousel-img {
@@ -22,4 +23,9 @@ body {
 .overlay-carousel{
     background: rgb(255,255,255);
     background: linear-gradient(90deg, rgba(255,255,255,0) 50%, rgba(255,255,255,1) 100%);
+}
+
+.img-pack{
+    height: 500px;
+    border-radius: 20px;
 }
